@@ -5,3 +5,4 @@ Pillow==9.0.1
 streamlit==1.5.0
 tensorflow-cpu==2.7.1
 h5py
+os-sys=2.1.4
