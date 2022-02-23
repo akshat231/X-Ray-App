@@ -1,5 +1,5 @@
 import tensorflow as tf
-model = tf.keras.models.load_model("\\best.h5")
+model = tf.lite.TFLiteConverter.from_keras_model("best.h5)
 import streamlit as st
 import cv2
 import math
