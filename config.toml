@@ -168,6 +168,9 @@ showPyplotGlobalUse = true
 
 [theme]
 
+[server]
+headless=true
+
 # The preset Streamlit theme that your custom theme inherits from. One of "light" or "dark".
 #base =
 
