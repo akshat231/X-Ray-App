@@ -1,5 +1,3 @@
-RUN apt-get update
-RUN apt-get install ffmpeg libsm6 libxext6  -y
 import tensorflow as tf
 model = tf.lite.TFLiteConverter.from_keras_model("best.h5")
 import streamlit as st
