@@ -1,5 +1,5 @@
 import tensorflow as tf
-model = tf.keras.models.load_model("D:\\archive (2)\\COVID-19_Radiography_Dataset\\x-ray\\best.h5")
+model = tf.keras.models.load_model("\\best.h5")
 import streamlit as st
 import cv2
 import math
