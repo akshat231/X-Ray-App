@@ -1,7 +1,7 @@
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'
 import tensorflow as tf
-model = tf.lite.TFLiteConverter.from_keras_model("best.h5")
+model = tf.keras.models.load_model("best.h5")
 import streamlit as st
 import cv2
 import math
