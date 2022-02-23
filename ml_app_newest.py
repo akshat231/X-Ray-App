@@ -54,7 +54,6 @@ else:
     image = Image.open(file)
     st.image(image,use_column_width=False)
     image=cv2.cvtColor(np.uint8(image), cv2.COLOR_BGR2RGB)
-    st.write("hh")
     resize_image=preprocess_image(image)
     pred=model.predict_classes(resize_image)
     prediction=findout(pred)
