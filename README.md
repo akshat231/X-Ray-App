@@ -6,5 +6,7 @@
   OR "CMD" OR ANY OTHER CLI. IT WILL NOT BE UPLOADED MANUALLY. AND IF IT IS GREATER THAN 100MB THEN THERE IS LFS<BR><br>2.<b> Login in Stream Share Platform and link your Github Account
   <br><br>3. Click on New App and link your GitHub Repo and also the name of main file Which in this case is "ml_app_newest"
   <br><br>4. Then it will hopefully pop up!!!
+  <hr>
+  <br><br><b> Here is the link, till it last:- https://share.streamlit.io/akshat231/x-ray-app/main/ml_app_newest.py
   
  
