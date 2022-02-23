@@ -54,12 +54,8 @@ else:
     image = Image.open(file)
     st.image(image,use_column_width=False)
     image=cv2.cvtColor(np.uint8(image), cv2.COLOR_BGR2RGB)
-    pipeline = keras_ocr.pipeline.Pipeline()
-    image = keras_ocr.tools.read(image)
-    prediction_groups = pipeline.recognize([image])
     st.write("hh")
-    refined_image=refine(prediction_groups,image)
-    resize_image=preprocess_image(refined_image)
+    resize_image=preprocess_image(image)
     pred=model.predict_classes(resize_image)
     prediction=findout(pred)
     if prediction == 0:
